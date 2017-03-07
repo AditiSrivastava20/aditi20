@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D71A1BD1E6EF9A0003B7CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D71A1BC1E6EF9A0003B7CBF /* AppDelegate.swift */; };
+		1D71A1BF1E6EF9A0003B7CBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D71A1BE1E6EF9A0003B7CBF /* ViewController.swift */; };
+		1D71A1C21E6EF9A1003B7CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D71A1C01E6EF9A1003B7CBF /* Main.storyboard */; };
+		1D71A1C41E6EF9A1003B7CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D71A1C31E6EF9A1003B7CBF /* Assets.xcassets */; };
+		1D71A1C71E6EF9A1003B7CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D71A1C51E6EF9A1003B7CBF /* LaunchScreen.storyboard */; };
+		1D71A1D21E6EF9A1003B7CBF /* clikatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D71A1D11E6EF9A1003B7CBF /* clikatTests.swift */; };
+		1D71A1DD1E6EF9A1003B7CBF /* clikatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D71A1DC1E6EF9A1003B7CBF /* clikatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D71A1CE1E6EF9A1003B7CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D71A1B11E6EF9A0003B7CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D71A1B81E6EF9A0003B7CBF;
+			remoteInfo = clikat;
+		};
+		1D71A1D91E6EF9A1003B7CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D71A1B11E6EF9A0003B7CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D71A1B81E6EF9A0003B7CBF;
+			remoteInfo = clikat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D71A1B91E6EF9A0003B7CBF /* clikat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clikat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D71A1BC1E6EF9A0003B7CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D71A1BE1E6EF9A0003B7CBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D71A1C11E6EF9A1003B7CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D71A1C31E6EF9A1003B7CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D71A1C61E6EF9A1003B7CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D71A1C81E6EF9A1003B7CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D71A1CD1E6EF9A1003B7CBF /* clikatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clikatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D71A1D11E6EF9A1003B7CBF /* clikatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clikatTests.swift; sourceTree = "<group>"; };
+		1D71A1D31E6EF9A1003B7CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D71A1D81E6EF9A1003B7CBF /* clikatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clikatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D71A1DC1E6EF9A1003B7CBF /* clikatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clikatUITests.swift; sourceTree = "<group>"; };
+		1D71A1DE1E6EF9A1003B7CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D71A1B61E6EF9A0003B7CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D71A1CA1E6EF9A1003B7CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D71A1D51E6EF9A1003B7CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D71A1B01E6EF9A0003B7CBF = {
+			isa = PBXGroup;
+			children = (
+				1D71A1BB1E6EF9A0003B7CBF /* clikat */,
+				1D71A1D01E6EF9A1003B7CBF /* clikatTests */,
+				1D71A1DB1E6EF9A1003B7CBF /* clikatUITests */,
+				1D71A1BA1E6EF9A0003B7CBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D71A1BA1E6EF9A0003B7CBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D71A1B91E6EF9A0003B7CBF /* clikat.app */,
+				1D71A1CD1E6EF9A1003B7CBF /* clikatTests.xctest */,
+				1D71A1D81E6EF9A1003B7CBF /* clikatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D71A1BB1E6EF9A0003B7CBF /* clikat */ = {
+			isa = PBXGroup;
+			children = (
+				1D71A1BC1E6EF9A0003B7CBF /* AppDelegate.swift */,
+				1D71A1BE1E6EF9A0003B7CBF /* ViewController.swift */,
+				1D71A1C01E6EF9A1003B7CBF /* Main.storyboard */,
+				1D71A1C31E6EF9A1003B7CBF /* Assets.xcassets */,
+				1D71A1C51E6EF9A1003B7CBF /* LaunchScreen.storyboard */,
+				1D71A1C81E6EF9A1003B7CBF /* Info.plist */,
+			);
+			path = clikat;
+			sourceTree = "<group>";
+		};
+		1D71A1D01E6EF9A1003B7CBF /* clikatTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D71A1D11E6EF9A1003B7CBF /* clikatTests.swift */,
+				1D71A1D31E6EF9A1003B7CBF /* Info.plist */,
+			);
+			path = clikatTests;
+			sourceTree = "<group>";
+		};
+		1D71A1DB1E6EF9A1003B7CBF /* clikatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D71A1DC1E6EF9A1003B7CBF /* clikatUITests.swift */,
+				1D71A1DE1E6EF9A1003B7CBF /* Info.plist */,
+			);
+			path = clikatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D71A1B81E6EF9A0003B7CBF /* clikat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D71A1E11E6EF9A1003B7CBF /* Build configuration list for PBXNativeTarget "clikat" */;
+			buildPhases = (
+				1D71A1B51E6EF9A0003B7CBF /* Sources */,
+				1D71A1B61E6EF9A0003B7CBF /* Frameworks */,
+				1D71A1B71E6EF9A0003B7CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clikat;
+			productName = clikat;
+			productReference = 1D71A1B91E6EF9A0003B7CBF /* clikat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D71A1CC1E6EF9A1003B7CBF /* clikatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D71A1E41E6EF9A1003B7CBF /* Build configuration list for PBXNativeTarget "clikatTests" */;
+			buildPhases = (
+				1D71A1C91E6EF9A1003B7CBF /* Sources */,
+				1D71A1CA1E6EF9A1003B7CBF /* Frameworks */,
+				1D71A1CB1E6EF9A1003B7CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D71A1CF1E6EF9A1003B7CBF /* PBXTargetDependency */,
+			);
+			name = clikatTests;
+			productName = clikatTests;
+			productReference = 1D71A1CD1E6EF9A1003B7CBF /* clikatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D71A1D71E6EF9A1003B7CBF /* clikatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D71A1E71E6EF9A1003B7CBF /* Build configuration list for PBXNativeTarget "clikatUITests" */;
+			buildPhases = (
+				1D71A1D41E6EF9A1003B7CBF /* Sources */,
+				1D71A1D51E6EF9A1003B7CBF /* Frameworks */,
+				1D71A1D61E6EF9A1003B7CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D71A1DA1E6EF9A1003B7CBF /* PBXTargetDependency */,
+			);
+			name = clikatUITests;
+			productName = clikatUITests;
+			productReference = 1D71A1D81E6EF9A1003B7CBF /* clikatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D71A1B11E6EF9A0003B7CBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = codebrew;
+				TargetAttributes = {
+					1D71A1B81E6EF9A0003B7CBF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					1D71A1CC1E6EF9A1003B7CBF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D71A1B81E6EF9A0003B7CBF;
+					};
+					1D71A1D71E6EF9A1003B7CBF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D71A1B81E6EF9A0003B7CBF;
+					};
+				};
+			};
+			buildConfigurationList = 1D71A1B41E6EF9A0003B7CBF /* Build configuration list for PBXProject "clikat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D71A1B01E6EF9A0003B7CBF;
+			productRefGroup = 1D71A1BA1E6EF9A0003B7CBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D71A1B81E6EF9A0003B7CBF /* clikat */,
+				1D71A1CC1E6EF9A1003B7CBF /* clikatTests */,
+				1D71A1D71E6EF9A1003B7CBF /* clikatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D71A1B71E6EF9A0003B7CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D71A1C71E6EF9A1003B7CBF /* LaunchScreen.storyboard in Resources */,
+				1D71A1C41E6EF9A1003B7CBF /* Assets.xcassets in Resources */,
+				1D71A1C21E6EF9A1003B7CBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D71A1CB1E6EF9A1003B7CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D71A1D61E6EF9A1003B7CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D71A1B51E6EF9A0003B7CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D71A1BF1E6EF9A0003B7CBF /* ViewController.swift in Sources */,
+				1D71A1BD1E6EF9A0003B7CBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D71A1C91E6EF9A1003B7CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D71A1D21E6EF9A1003B7CBF /* clikatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D71A1D41E6EF9A1003B7CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D71A1DD1E6EF9A1003B7CBF /* clikatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D71A1CF1E6EF9A1003B7CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D71A1B81E6EF9A0003B7CBF /* clikat */;
+			targetProxy = 1D71A1CE1E6EF9A1003B7CBF /* PBXContainerItemProxy */;
+		};
+		1D71A1DA1E6EF9A1003B7CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D71A1B81E6EF9A0003B7CBF /* clikat */;
+			targetProxy = 1D71A1D91E6EF9A1003B7CBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D71A1C01E6EF9A1003B7CBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D71A1C11E6EF9A1003B7CBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D71A1C51E6EF9A1003B7CBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D71A1C61E6EF9A1003B7CBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D71A1DF1E6EF9A1003B7CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D71A1E01E6EF9A1003B7CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D71A1E21E6EF9A1003B7CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clikat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.clikat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1D71A1E31E6EF9A1003B7CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clikat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.clikat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1D71A1E51E6EF9A1003B7CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = clikatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.clikatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clikat.app/clikat";
+			};
+			name = Debug;
+		};
+		1D71A1E61E6EF9A1003B7CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = clikatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.clikatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clikat.app/clikat";
+			};
+			name = Release;
+		};
+		1D71A1E81E6EF9A1003B7CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = clikatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.clikatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = clikat;
+			};
+			name = Debug;
+		};
+		1D71A1E91E6EF9A1003B7CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = clikatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.clikatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = clikat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D71A1B41E6EF9A0003B7CBF /* Build configuration list for PBXProject "clikat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D71A1DF1E6EF9A1003B7CBF /* Debug */,
+				1D71A1E01E6EF9A1003B7CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D71A1E11E6EF9A1003B7CBF /* Build configuration list for PBXNativeTarget "clikat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D71A1E21E6EF9A1003B7CBF /* Debug */,
+				1D71A1E31E6EF9A1003B7CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D71A1E41E6EF9A1003B7CBF /* Build configuration list for PBXNativeTarget "clikatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D71A1E51E6EF9A1003B7CBF /* Debug */,
+				1D71A1E61E6EF9A1003B7CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D71A1E71E6EF9A1003B7CBF /* Build configuration list for PBXNativeTarget "clikatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D71A1E81E6EF9A1003B7CBF /* Debug */,
+				1D71A1E91E6EF9A1003B7CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D71A1B11E6EF9A0003B7CBF /* Project object */;
+}
