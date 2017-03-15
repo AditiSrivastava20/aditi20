@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.3.0)
+  - Kingfisher (3.3.4)
+  - MapleBacon (3.0.1)
+  - ObjectMapper (2.2.2)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - MapleBacon
+  - ObjectMapper
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  Kingfisher: 35f289f015d26e81ea6c85048718c6205f3933c6
+  MapleBacon: 8fb0c45a0f147049ad49af6b36ac04a649baa74d
+  ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: 84de2f82837ac0f53c36a3f522878d926c3df89a
+
+COCOAPODS: 1.2.0

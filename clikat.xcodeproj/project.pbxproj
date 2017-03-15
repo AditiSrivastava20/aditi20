@@ -8,12 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		1D71A1BD1E6EF9A0003B7CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D71A1BC1E6EF9A0003B7CBF /* AppDelegate.swift */; };
-		1D71A1BF1E6EF9A0003B7CBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D71A1BE1E6EF9A0003B7CBF /* ViewController.swift */; };
-		1D71A1C21E6EF9A1003B7CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D71A1C01E6EF9A1003B7CBF /* Main.storyboard */; };
 		1D71A1C41E6EF9A1003B7CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D71A1C31E6EF9A1003B7CBF /* Assets.xcassets */; };
-		1D71A1C71E6EF9A1003B7CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D71A1C51E6EF9A1003B7CBF /* LaunchScreen.storyboard */; };
 		1D71A1D21E6EF9A1003B7CBF /* clikatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D71A1D11E6EF9A1003B7CBF /* clikatTests.swift */; };
 		1D71A1DD1E6EF9A1003B7CBF /* clikatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D71A1DC1E6EF9A1003B7CBF /* clikatUITests.swift */; };
+		1D7967BE1E796B1C00EEEA11 /* DataIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7967BD1E796B1C00EEEA11 /* DataIdentifier.swift */; };
+		1D88920A1E79082800984C4D /* slidepanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8892081E79082800984C4D /* slidepanelViewController.swift */; };
+		1D88920B1E79082800984C4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8892091E79082800984C4D /* ViewController.swift */; };
+		1D88920E1E7908B300984C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D88920D1E7908B300984C4D /* Main.storyboard */; };
+		1D8892171E79099700984C4D /* AdvertisementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8892101E79099700984C4D /* AdvertisementTableViewCell.swift */; };
+		1D8892181E79099700984C4D /* AdvertisementTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D8892111E79099700984C4D /* AdvertisementTableViewCell.xib */; };
+		1D8892191E79099700984C4D /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8892121E79099700984C4D /* FirstTableViewCell.swift */; };
+		1D88921A1E79099700984C4D /* FirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D8892131E79099700984C4D /* FirstTableViewCell.xib */; };
+		1D88921B1E79099700984C4D /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8892141E79099700984C4D /* SecondTableViewCell.swift */; };
+		1D88921C1E79099700984C4D /* ThirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8892151E79099700984C4D /* ThirdTableViewCell.swift */; };
+		1D88921D1E79099700984C4D /* ThirdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D8892161E79099700984C4D /* ThirdTableViewCell.xib */; };
+		1D88921F1E7909BE00984C4D /* SecondTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D88921E1E7909BE00984C4D /* SecondTableViewCell.xib */; };
+		1D8892211E790A1500984C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8892201E790A1500984C4D /* LaunchScreen.storyboard */; };
+		1D88922B1E790A2700984C4D /* firstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8892231E790A2700984C4D /* firstCollectionViewCell.swift */; };
+		1D88922C1E790A2700984C4D /* firstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D8892241E790A2700984C4D /* firstCollectionViewCell.xib */; };
+		1D88922D1E790A2700984C4D /* fourthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8892251E790A2700984C4D /* fourthCollectionViewCell.swift */; };
+		1D88922E1E790A2700984C4D /* fourthCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D8892261E790A2700984C4D /* fourthCollectionViewCell.xib */; };
+		1D88922F1E790A2700984C4D /* secondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8892271E790A2700984C4D /* secondCollectionViewCell.swift */; };
+		1D8892301E790A2700984C4D /* secondCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D8892281E790A2700984C4D /* secondCollectionViewCell.xib */; };
+		1D8892311E790A2700984C4D /* thirdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8892291E790A2700984C4D /* thirdCollectionViewCell.swift */; };
+		1D8892321E790A2700984C4D /* thirdCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D88922A1E790A2700984C4D /* thirdCollectionViewCell.xib */; };
+		1D8892351E790A9900984C4D /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8892341E790A9900984C4D /* model.swift */; };
+		1D8892381E790ABF00984C4D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8892371E790ABF00984C4D /* TableViewCell.swift */; };
+		1D88923E1E791DE600984C4D /* stickyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D88923D1E791DE600984C4D /* stickyHeader.swift */; };
+		1D8892401E791DF500984C4D /* stickyHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D88923F1E791DF500984C4D /* stickyHeader.xib */; };
+		1DD6C7F61E710EE1006561F2 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6C7F51E710EE1006561F2 /* APIHandler.swift */; };
+		2CEC7C020D89A80448C34981 /* Pods_clikatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCCF9A681A28B1F09BCD1D1 /* Pods_clikatUITests.framework */; };
+		4FA41DE2B1E7BC9F6537DD98 /* Pods_clikatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69495D5A8DA48FAC835F5A2F /* Pods_clikatTests.framework */; };
+		C8E968BDB971D2CABC225276 /* Pods_clikat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43D606C95B18F6489FEC41F /* Pods_clikat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +60,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1293F88D3E3A3AEE92FBEA5D /* Pods-clikatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clikatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-clikatUITests/Pods-clikatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1CBF9EA492F5CF8431BF8ED4 /* Pods-clikatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clikatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-clikatUITests/Pods-clikatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D71A1B91E6EF9A0003B7CBF /* clikat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clikat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D71A1BC1E6EF9A0003B7CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D71A1BE1E6EF9A0003B7CBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1D71A1C11E6EF9A1003B7CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D71A1C31E6EF9A1003B7CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1D71A1C61E6EF9A1003B7CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D71A1C81E6EF9A1003B7CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D71A1CD1E6EF9A1003B7CBF /* clikatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clikatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D71A1D11E6EF9A1003B7CBF /* clikatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clikatTests.swift; sourceTree = "<group>"; };
@@ -47,6 +72,39 @@
 		1D71A1D81E6EF9A1003B7CBF /* clikatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clikatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D71A1DC1E6EF9A1003B7CBF /* clikatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clikatUITests.swift; sourceTree = "<group>"; };
 		1D71A1DE1E6EF9A1003B7CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D7967BD1E796B1C00EEEA11 /* DataIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataIdentifier.swift; sourceTree = "<group>"; };
+		1D8892081E79082800984C4D /* slidepanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slidepanelViewController.swift; sourceTree = "<group>"; };
+		1D8892091E79082800984C4D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D88920D1E7908B300984C4D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1D8892101E79099700984C4D /* AdvertisementTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertisementTableViewCell.swift; sourceTree = "<group>"; };
+		1D8892111E79099700984C4D /* AdvertisementTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvertisementTableViewCell.xib; sourceTree = "<group>"; };
+		1D8892121E79099700984C4D /* FirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		1D8892131E79099700984C4D /* FirstTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstTableViewCell.xib; sourceTree = "<group>"; };
+		1D8892141E79099700984C4D /* SecondTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
+		1D8892151E79099700984C4D /* ThirdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTableViewCell.swift; sourceTree = "<group>"; };
+		1D8892161E79099700984C4D /* ThirdTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdTableViewCell.xib; sourceTree = "<group>"; };
+		1D88921E1E7909BE00984C4D /* SecondTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondTableViewCell.xib; sourceTree = "<group>"; };
+		1D8892201E790A1500984C4D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D8892231E790A2700984C4D /* firstCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D8892241E790A2700984C4D /* firstCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = firstCollectionViewCell.xib; sourceTree = "<group>"; };
+		1D8892251E790A2700984C4D /* fourthCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fourthCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D8892261E790A2700984C4D /* fourthCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = fourthCollectionViewCell.xib; sourceTree = "<group>"; };
+		1D8892271E790A2700984C4D /* secondCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D8892281E790A2700984C4D /* secondCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondCollectionViewCell.xib; sourceTree = "<group>"; };
+		1D8892291E790A2700984C4D /* thirdCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D88922A1E790A2700984C4D /* thirdCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = thirdCollectionViewCell.xib; sourceTree = "<group>"; };
+		1D8892341E790A9900984C4D /* model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		1D8892371E790ABF00984C4D /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1D88923D1E791DE600984C4D /* stickyHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stickyHeader.swift; sourceTree = "<group>"; };
+		1D88923F1E791DF500984C4D /* stickyHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = stickyHeader.xib; sourceTree = "<group>"; };
+		1DD6C7F51E710EE1006561F2 /* APIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		20E7AB7A9791AB5DBAC5BED4 /* Pods-clikat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clikat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-clikat/Pods-clikat.debug.xcconfig"; sourceTree = "<group>"; };
+		69495D5A8DA48FAC835F5A2F /* Pods_clikatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clikatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70017F583D035979B1C18633 /* Pods-clikatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clikatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-clikatTests/Pods-clikatTests.release.xcconfig"; sourceTree = "<group>"; };
+		80DFB0BCECB6E05F563ED90D /* Pods-clikat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clikat.release.xcconfig"; path = "Pods/Target Support Files/Pods-clikat/Pods-clikat.release.xcconfig"; sourceTree = "<group>"; };
+		CDCCF9A681A28B1F09BCD1D1 /* Pods_clikatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clikatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43D606C95B18F6489FEC41F /* Pods_clikat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clikat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAB7D70BC167BA105468982 /* Pods-clikatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clikatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-clikatTests/Pods-clikatTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E968BDB971D2CABC225276 /* Pods_clikat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA41DE2B1E7BC9F6537DD98 /* Pods_clikatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CEC7C020D89A80448C34981 /* Pods_clikatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +142,8 @@
 				1D71A1D01E6EF9A1003B7CBF /* clikatTests */,
 				1D71A1DB1E6EF9A1003B7CBF /* clikatUITests */,
 				1D71A1BA1E6EF9A0003B7CBF /* Products */,
+				7D2FCE8A75E1E709A786E4A8 /* Pods */,
+				492244F06B474D72F252C2F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +160,17 @@
 		1D71A1BB1E6EF9A0003B7CBF /* clikat */ = {
 			isa = PBXGroup;
 			children = (
+				1D8892361E790ABF00984C4D /* Slider */,
+				1D8892331E790A7E00984C4D /* Model */,
+				1D8892221E790A2700984C4D /* CollectionViewCell */,
+				1D88920F1E79099700984C4D /* TableViewCell */,
+				1D88920C1E7908B300984C4D /* View */,
+				1D8892071E79082800984C4D /* Controller */,
+				1DD6C7F41E710EC4006561F2 /* API Handler */,
 				1D71A1BC1E6EF9A0003B7CBF /* AppDelegate.swift */,
-				1D71A1BE1E6EF9A0003B7CBF /* ViewController.swift */,
-				1D71A1C01E6EF9A1003B7CBF /* Main.storyboard */,
 				1D71A1C31E6EF9A1003B7CBF /* Assets.xcassets */,
-				1D71A1C51E6EF9A1003B7CBF /* LaunchScreen.storyboard */,
 				1D71A1C81E6EF9A1003B7CBF /* Info.plist */,
+				1D7967BD1E796B1C00EEEA11 /* DataIdentifier.swift */,
 			);
 			path = clikat;
 			sourceTree = "<group>";
@@ -125,6 +193,103 @@
 			path = clikatUITests;
 			sourceTree = "<group>";
 		};
+		1D8892071E79082800984C4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D8892081E79082800984C4D /* slidepanelViewController.swift */,
+				1D8892091E79082800984C4D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1D88920C1E7908B300984C4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D88920D1E7908B300984C4D /* Main.storyboard */,
+				1D8892201E790A1500984C4D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D88920F1E79099700984C4D /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1D8892101E79099700984C4D /* AdvertisementTableViewCell.swift */,
+				1D8892111E79099700984C4D /* AdvertisementTableViewCell.xib */,
+				1D8892121E79099700984C4D /* FirstTableViewCell.swift */,
+				1D8892131E79099700984C4D /* FirstTableViewCell.xib */,
+				1D8892141E79099700984C4D /* SecondTableViewCell.swift */,
+				1D88921E1E7909BE00984C4D /* SecondTableViewCell.xib */,
+				1D8892151E79099700984C4D /* ThirdTableViewCell.swift */,
+				1D8892161E79099700984C4D /* ThirdTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		1D8892221E790A2700984C4D /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1D8892231E790A2700984C4D /* firstCollectionViewCell.swift */,
+				1D8892241E790A2700984C4D /* firstCollectionViewCell.xib */,
+				1D8892271E790A2700984C4D /* secondCollectionViewCell.swift */,
+				1D8892281E790A2700984C4D /* secondCollectionViewCell.xib */,
+				1D8892291E790A2700984C4D /* thirdCollectionViewCell.swift */,
+				1D88922A1E790A2700984C4D /* thirdCollectionViewCell.xib */,
+				1D8892251E790A2700984C4D /* fourthCollectionViewCell.swift */,
+				1D8892261E790A2700984C4D /* fourthCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		1D8892331E790A7E00984C4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D8892341E790A9900984C4D /* model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D8892361E790ABF00984C4D /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				1D8892371E790ABF00984C4D /* TableViewCell.swift */,
+				1D88923D1E791DE600984C4D /* stickyHeader.swift */,
+				1D88923F1E791DF500984C4D /* stickyHeader.xib */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		1DD6C7F41E710EC4006561F2 /* API Handler */ = {
+			isa = PBXGroup;
+			children = (
+				1DD6C7F51E710EE1006561F2 /* APIHandler.swift */,
+			);
+			name = "API Handler";
+			sourceTree = "<group>";
+		};
+		492244F06B474D72F252C2F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F43D606C95B18F6489FEC41F /* Pods_clikat.framework */,
+				69495D5A8DA48FAC835F5A2F /* Pods_clikatTests.framework */,
+				CDCCF9A681A28B1F09BCD1D1 /* Pods_clikatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D2FCE8A75E1E709A786E4A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20E7AB7A9791AB5DBAC5BED4 /* Pods-clikat.debug.xcconfig */,
+				80DFB0BCECB6E05F563ED90D /* Pods-clikat.release.xcconfig */,
+				FAAB7D70BC167BA105468982 /* Pods-clikatTests.debug.xcconfig */,
+				70017F583D035979B1C18633 /* Pods-clikatTests.release.xcconfig */,
+				1CBF9EA492F5CF8431BF8ED4 /* Pods-clikatUITests.debug.xcconfig */,
+				1293F88D3E3A3AEE92FBEA5D /* Pods-clikatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +297,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D71A1E11E6EF9A1003B7CBF /* Build configuration list for PBXNativeTarget "clikat" */;
 			buildPhases = (
+				B464699FE7B20AAF091AAE1A /* [CP] Check Pods Manifest.lock */,
 				1D71A1B51E6EF9A0003B7CBF /* Sources */,
 				1D71A1B61E6EF9A0003B7CBF /* Frameworks */,
 				1D71A1B71E6EF9A0003B7CBF /* Resources */,
+				146021574BB5CB92775CB2BB /* [CP] Embed Pods Frameworks */,
+				5C082A33065B2860050EE195 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +317,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D71A1E41E6EF9A1003B7CBF /* Build configuration list for PBXNativeTarget "clikatTests" */;
 			buildPhases = (
+				9F89E91949940FF46ABF398A /* [CP] Check Pods Manifest.lock */,
 				1D71A1C91E6EF9A1003B7CBF /* Sources */,
 				1D71A1CA1E6EF9A1003B7CBF /* Frameworks */,
 				1D71A1CB1E6EF9A1003B7CBF /* Resources */,
+				15B2E5FF72CAC74A3C14E475 /* [CP] Embed Pods Frameworks */,
+				674CF2E655A213997E2C5ACA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +338,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D71A1E71E6EF9A1003B7CBF /* Build configuration list for PBXNativeTarget "clikatUITests" */;
 			buildPhases = (
+				E1E57AEA68CAE67AB31DBC7A /* [CP] Check Pods Manifest.lock */,
 				1D71A1D41E6EF9A1003B7CBF /* Sources */,
 				1D71A1D51E6EF9A1003B7CBF /* Frameworks */,
 				1D71A1D61E6EF9A1003B7CBF /* Resources */,
+				9A6780F9948C09736AC9926E /* [CP] Embed Pods Frameworks */,
+				0BB9919D0742D8CE139A2807 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +406,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D71A1C71E6EF9A1003B7CBF /* LaunchScreen.storyboard in Resources */,
+				1D8892301E790A2700984C4D /* secondCollectionViewCell.xib in Resources */,
+				1D8892321E790A2700984C4D /* thirdCollectionViewCell.xib in Resources */,
+				1D88922C1E790A2700984C4D /* firstCollectionViewCell.xib in Resources */,
+				1D8892181E79099700984C4D /* AdvertisementTableViewCell.xib in Resources */,
+				1D88920E1E7908B300984C4D /* Main.storyboard in Resources */,
+				1D8892401E791DF500984C4D /* stickyHeader.xib in Resources */,
+				1D88921F1E7909BE00984C4D /* SecondTableViewCell.xib in Resources */,
+				1D88921A1E79099700984C4D /* FirstTableViewCell.xib in Resources */,
+				1D8892211E790A1500984C4D /* LaunchScreen.storyboard in Resources */,
 				1D71A1C41E6EF9A1003B7CBF /* Assets.xcassets in Resources */,
-				1D71A1C21E6EF9A1003B7CBF /* Main.storyboard in Resources */,
+				1D88922E1E790A2700984C4D /* fourthCollectionViewCell.xib in Resources */,
+				1D88921D1E79099700984C4D /* ThirdTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +437,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BB9919D0742D8CE139A2807 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clikatUITests/Pods-clikatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		146021574BB5CB92775CB2BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clikat/Pods-clikat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15B2E5FF72CAC74A3C14E475 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clikatTests/Pods-clikatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C082A33065B2860050EE195 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clikat/Pods-clikat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		674CF2E655A213997E2C5ACA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clikatTests/Pods-clikatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A6780F9948C09736AC9926E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clikatUITests/Pods-clikatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F89E91949940FF46ABF398A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B464699FE7B20AAF091AAE1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1E57AEA68CAE67AB31DBC7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D71A1B51E6EF9A0003B7CBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D71A1BF1E6EF9A0003B7CBF /* ViewController.swift in Sources */,
+				1D8892381E790ABF00984C4D /* TableViewCell.swift in Sources */,
+				1D88920A1E79082800984C4D /* slidepanelViewController.swift in Sources */,
+				1D8892171E79099700984C4D /* AdvertisementTableViewCell.swift in Sources */,
+				1D88923E1E791DE600984C4D /* stickyHeader.swift in Sources */,
+				1D88921C1E79099700984C4D /* ThirdTableViewCell.swift in Sources */,
+				1DD6C7F61E710EE1006561F2 /* APIHandler.swift in Sources */,
+				1D88922D1E790A2700984C4D /* fourthCollectionViewCell.swift in Sources */,
+				1D88922F1E790A2700984C4D /* secondCollectionViewCell.swift in Sources */,
+				1D8892311E790A2700984C4D /* thirdCollectionViewCell.swift in Sources */,
+				1D88921B1E79099700984C4D /* SecondTableViewCell.swift in Sources */,
+				1D8892351E790A9900984C4D /* model.swift in Sources */,
+				1D88922B1E790A2700984C4D /* firstCollectionViewCell.swift in Sources */,
+				1D7967BE1E796B1C00EEEA11 /* DataIdentifier.swift in Sources */,
 				1D71A1BD1E6EF9A0003B7CBF /* AppDelegate.swift in Sources */,
+				1D8892191E79099700984C4D /* FirstTableViewCell.swift in Sources */,
+				1D88920B1E79082800984C4D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +629,6 @@
 			targetProxy = 1D71A1D91E6EF9A1003B7CBF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1D71A1C01E6EF9A1003B7CBF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D71A1C11E6EF9A1003B7CBF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1D71A1C51E6EF9A1003B7CBF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D71A1C61E6EF9A1003B7CBF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D71A1DF1E6EF9A1003B7CBF /* Debug */ = {
@@ -410,30 +726,37 @@
 		};
 		1D71A1E21E6EF9A1003B7CBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E7AB7A9791AB5DBAC5BED4 /* Pods-clikat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = clikat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.clikat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1D71A1E31E6EF9A1003B7CBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DFB0BCECB6E05F563ED90D /* Pods-clikat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = clikat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.clikat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		1D71A1E51E6EF9A1003B7CBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAAB7D70BC167BA105468982 /* Pods-clikatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +771,7 @@
 		};
 		1D71A1E61E6EF9A1003B7CBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70017F583D035979B1C18633 /* Pods-clikatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +786,7 @@
 		};
 		1D71A1E81E6EF9A1003B7CBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CBF9EA492F5CF8431BF8ED4 /* Pods-clikatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = clikatUITests/Info.plist;
@@ -475,6 +800,7 @@
 		};
 		1D71A1E91E6EF9A1003B7CBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1293F88D3E3A3AEE92FBEA5D /* Pods-clikatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = clikatUITests/Info.plist;
@@ -505,6 +831,7 @@
 				1D71A1E31E6EF9A1003B7CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D71A1E41E6EF9A1003B7CBF /* Build configuration list for PBXNativeTarget "clikatTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +840,7 @@
 				1D71A1E61E6EF9A1003B7CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D71A1E71E6EF9A1003B7CBF /* Build configuration list for PBXNativeTarget "clikatUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +849,7 @@
 				1D71A1E91E6EF9A1003B7CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

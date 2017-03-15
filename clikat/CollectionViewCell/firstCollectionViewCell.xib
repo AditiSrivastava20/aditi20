@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell1" id="gTV-IL-0wX" customClass="firstCollectionViewCell" customModule="clikat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="346" height="250"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="346" height="250"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2017-03-08 at 7.27.24 PM" translatesAutoresizingMaskIntoConstraints="NO" id="EAw-8Q-EOD">
+                        <rect key="frame" x="0.0" y="0.0" width="350" height="250"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="250" id="J1J-ie-bTz"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="EAw-8Q-EOD" secondAttribute="bottom" id="7Fu-et-PcZ"/>
+                <constraint firstAttribute="trailing" secondItem="EAw-8Q-EOD" secondAttribute="trailing" id="Uck-CT-9Eg"/>
+                <constraint firstItem="EAw-8Q-EOD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dys-gI-Guv"/>
+                <constraint firstItem="EAw-8Q-EOD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yZG-hb-Ff4"/>
+            </constraints>
+            <size key="customSize" width="344" height="235"/>
+            <connections>
+                <outlet property="advertisementImage" destination="EAw-8Q-EOD" id="nUf-To-OWW"/>
+            </connections>
+            <point key="canvasLocation" x="173" y="48"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Screen Shot 2017-03-08 at 7.27.24 PM" width="341" height="150"/>
+    </resources>
+</document>
